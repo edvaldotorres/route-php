@@ -1,0 +1,26 @@
+{
+    "name": "edvaldotorres/route-php",
+    "description": "The project only follows one component for the studies and good practices of Routes.",
+    "license": "MIT",
+    "type": "project",
+    "authors": [{
+        "name": "Edvaldo Torres",
+        "email": "edvaldodev@gmail.com",
+        "role": "Developer"
+    }],
+    "minimum-stability": "stable",
+    "require": {
+        "coffeecode/router": "1.0.*"
+    },
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source/"
+        },
+        "files": [
+            "source/Config.php"
+        ]
+    }
+}
