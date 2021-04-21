@@ -24,6 +24,7 @@
 
 ```sh
 composer install
+```
 
 ## Usage
 
